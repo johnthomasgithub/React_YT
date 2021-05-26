@@ -8,5 +8,4 @@ function Columns() {
         </React.Fragment>
     )
 }
-
 export default Columns
