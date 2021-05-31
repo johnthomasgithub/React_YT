@@ -1,11 +1,11 @@
 import './App.css';
-import FRParentInput from './components/FRParentInput';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App">
-      {/* <RefsDemo /> */}
-      <FRParentInput />
+      <Hero heroName="superman" />
+      <Hero heroName="batman"/>
     </div>
   );
 }
