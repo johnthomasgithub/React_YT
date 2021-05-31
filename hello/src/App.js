@@ -1,11 +1,14 @@
 import './App.css';
+import ErrorBoundary from './components/ErrorBoundary';
 import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App">
-      <Hero heroName="superman" />
-      <Hero heroName="batman"/>
+      <ErrorBoundary>
+      <Hero heroName="joker" />
+      </ErrorBoundary>
+     
     </div>
   );
 }
