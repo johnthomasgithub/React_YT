@@ -1,10 +1,11 @@
 import './App.css';
-import RefsDemo from './components/RefsDemo';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+      <FRParentInput />
     </div>
   );
 }
